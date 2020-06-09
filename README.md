@@ -1,5 +1,5 @@
 #  Map User Experience (MUX)
-Registrarse en https://code.earthengine.google.com/
+Download RStudio https://rstudio.com/products/rstudio/download/
 ## Video 1
 a) Seleccionar una imagen especifica de Sentinel
 ```
