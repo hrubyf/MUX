@@ -1,13 +1,16 @@
 #  Map User Experience (MUX)
 Download RStudio https://rstudio.com/products/rstudio/download/
-## Video 1
-a) Seleccionar una imagen especifica de Sentinel
+## Aufbereitung und Prüfung der Daten
+a) Daten in RStudio laden:
 ```
-var sentinel2 = ee.Image("COPERNICUS/S2/20191217T182751_20191217T183434_T11SNR");
+original <- read.csv("geomap_O.csv", header=T)
 ```
-b) Ver los detalles de la imagen en la consola
+b) Um sich einen ersten Überblick über die Daten zu verschaffen:
 ```
-print(sentinel2)
+head(original)
+summary(original)
+
+boxplot(original)nt(sentinel2)
 ```
 c) Visualizar la imagen en el mapa
 ```
