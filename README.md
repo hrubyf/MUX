@@ -10,14 +10,23 @@ b) Um sich einen ersten Überblick über die Daten zu verschaffen:
 head(original)
 summary(original)
 
-boxplot(original)nt(sentinel2)
+boxplot(original)
+plot(original)
 ```
-c) Visualizar la imagen en el mapa
+c) Auf Normalverteilung testen
 ```
-Map.addLayer(sentinel2, {bands:["B4","B3","B2"], min:0, max:3000}, "Ensenada - true color");
-```
+original_fence <- read.csv("geomap_O_fence.csv", header=T)
 
+shapiro.test(original_fence$O1)
 
+hist(original_fence$O1,main="Original",xlab="RT - milliseconds", ylab="Häufigkeit", border="light blue",col="blue",las=1)
+```
+d) Fragen in Bezug auf die Antwortzeit miteinander Vergleichen
+```
+anova_o <- aov(original$RT ~ original$type)
+summary(anova_o)
+TukeyHSD(anova_o)
+```
 
 ## Video 2
 a) Filtrar imagen
