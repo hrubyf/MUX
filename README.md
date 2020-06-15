@@ -38,6 +38,7 @@ OvsF <- read.csv("geomap_OvsF.csv", header=T)
 t.test(OvsF$F2, OvsF$O2, mu=0, alternative = "two.sided", var.eq = F, paired = F, conf.level = 0.95)
 ```
 ## Datenanalyse unter Annahme nicht-normalverteilter Daten (nicht-parametrische Tests)
+f) Fragen verschiedener Legendendesigns in Bezug auf die Antwortzeit miteinander Vergleichen
 ```
 OvsF_np <- read.csv("geomap_OvsF_np.csv", header=T)
 
