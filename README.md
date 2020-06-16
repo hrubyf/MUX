@@ -22,7 +22,7 @@ shapiro.test(original_fence$O1)
 hist(original_fence$O1,main="Original",xlab="RT - milliseconds", ylab="Häufigkeit", border="light blue",col="blue",las=1)
 ```
 ## Datenanalyse unter Annahme normalverteilter Daten (parametrische Tests)
-d) Fragen eines Legendendesigns in Bezug auf die Antwortzeit miteinander Vergleichen
+d) Fragen eines Legendendesigns in Bezug auf die Antwortzeit miteinander vergleichen
 ```
 original <- read.csv("geomap_O_fence_list.csv", header=T)
 
@@ -31,7 +31,7 @@ summary(anova_o)
 
 TukeyHSD(anova_o)
 ```
-e) Fragen verschiedener Legendendesigns in Bezug auf die Antwortzeit miteinander Vergleichen
+e) Fragen verschiedener Legendendesigns in Bezug auf die Antwortzeit miteinander vergleichen
 ```
 OvsF <- read.csv("geomap_OvsF.csv", header=T)
 
