@@ -3,7 +3,7 @@ Download RStudio https://rstudio.com/products/rstudio/download/
 ## Download der verwendeten Datensätze
 https://drive.google.com/drive/folders/1BwxvCa-EckDScO1nfrugDHN9q4C6e5lB?usp=sharing
 ## Videotutorials | Statistische Datenauswertung
-* [Aufbereitung und Prüfung der Daten] (https://moodle.univie.ac.at/mod/resource/view.php?id=4813914)
+* [Aufbereitung und Prüfung der Daten](https://moodle.univie.ac.at/mod/resource/view.php?id=4813914)
 * Datenanalyse unter Annahme normalverteilter Daten https://moodle.univie.ac.at/mod/resource/view.php?id=4813930
 * Datenanalyse unter Annahme nicht-normalverteilter Daten https://moodle.univie.ac.at/mod/resource/view.php?id=4813949
 ## R-snippets | Aufbereitung und Prüfung der Daten
