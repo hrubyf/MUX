@@ -3,9 +3,9 @@
 ## Download der verwendeten Datensätze
 https://drive.google.com/drive/folders/1BwxvCa-EckDScO1nfrugDHN9q4C6e5lB?usp=sharing
 ## Videotutorials | Statistische Datenauswertung
-* [Aufbereitung und Prüfung der Daten](https://moodle.univie.ac.at/mod/resource/view.php?id=4813914)
-* [Datenanalyse unter Annahme normalverteilter Daten](https://moodle.univie.ac.at/mod/resource/view.php?id=4813930)
-* [Datenanalyse unter Annahme nicht-normalverteilter Daten](https://moodle.univie.ac.at/mod/resource/view.php?id=4813949)
+* [Aufbereitung und Prüfung der Daten](https://drive.google.com/file/d/1WHw_QzTLlgs3m8Rkjjl6maCz6rl9AHpd/view?usp=sharing)
+* [Datenanalyse unter Annahme normalverteilter Daten](https://drive.google.com/file/d/1bHJHVFmlzQOXA5rHqfsyeFF0IqitNKBP/view?usp=sharing)
+* [Datenanalyse unter Annahme nicht-normalverteilter Daten](https://drive.google.com/file/d/1RuCm685RAviR9bGiegqO5l1aVGSVyLUH/view?usp=sharing)
 ## R-snippets | Aufbereitung und Prüfung der Daten
 a) Daten in RStudio laden:
 ```
